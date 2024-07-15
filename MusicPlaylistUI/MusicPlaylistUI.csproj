@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MusicPlaylistBL">
+      <HintPath>..\MusicPlaylistBL\bin\Debug\net8.0\MusicPlaylistBL.dll</HintPath>
+    </Reference>
+    <Reference Include="MusicPlaylistModel">
+      <HintPath>..\MusicPlaylistAPI\bin\Debug\net8.0\MusicPlaylistModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
